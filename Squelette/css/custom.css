@@ -62,7 +62,7 @@ header{
 
 .a-home a{
   text-decoration: none;
-  background-color: #d9534f;
+  background-color: #D9534F;
   padding: 10px 17px;
   color: white;
   border-radius: 7%;
@@ -110,8 +110,23 @@ header{
     font-weight: 400;
 }
 
+hr{
+    border: none;
+  border-top: 2px solid #D9534F;
+  color:  #D9534F;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 200px;
+}
 
-
+.who-back h2{
+    padding: 20px;
+    font-family: "Arvo", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #D9534F;
+}
 
 /* fin de code */
 
