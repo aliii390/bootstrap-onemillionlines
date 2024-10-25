@@ -1,4 +1,84 @@
 /* Vos customisations des classes de Bootstrap */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap'); /* police h1*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* partie header */
+.flex{
+    display: flex;
+  
+    
+}
+
+header{
+    padding: 1%;
+    justify-content: center;
+    gap: 50%;
+    background-color: #222222;
+}
+
+.a-header{
+    gap: 2%;
+    align-items: center;
+    
+}
+
+
+.a-header a{
+    color: white; 
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+
+/* fin de code */
+
+
+/* partie home */
+
+.background-home{
+    justify-content:  center;
+    padding: 50px;
+    text-align: center;
+    background-image: url("../images/hero-image.jpg");
+    height: 65vh;
+    color: white;
+    align-items: center;
+    
+}
+
+.collumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.a-home a{
+  text-decoration: none;
+  background-color: #d9534f;
+  padding: 10px 17px;
+  color: white;
+  border-radius: 7%;
+}
+
+.a-home{
+    padding: 30px;
+}
+
+
+.pad-p{
+    padding: 1%;
+   
+}
+
+.police-h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 66px;
+}
+/* fin de code */
 
 
 
