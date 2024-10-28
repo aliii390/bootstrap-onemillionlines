@@ -16,37 +16,58 @@ html{
 /* partie header */
 .flex{
     display: flex;
-  
-    
+
 }
 
-header{
-    padding: 1%;
-    justify-content: center;
-    gap: 50%;
-    background-color: #222222;
-}
-
-.a-header{
-    gap: 2%;
-    align-items: center;
-    
-}
-
-
-.a-header a{
-    color: #606569; 
+a {
     text-decoration: none;
-    margin-right: 15px;
+  }
+  
+  ul {
+    list-style: none;
+  }
 
-}
+header {
+    background-color: #222222 ;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 0.9rem;
+  }
+  
+  nav a {
+      color: rgb(197, 197, 197);
+  }
+  
+  nav a:hover {
+      color: #ffffff;
+  }
+  
+  .container {
+    width: 1200px;
+  }
+
+
 
 /* fin de code */
 
 
 /* partie home */
 
-.background-home{
+ .background-home{
     justify-content:  center;
     padding: 50px;
     text-align: center;
@@ -91,7 +112,11 @@ header{
     font-weight: 400;
     font-style: normal;
     font-size: 56px;
-}
+} 
+
+
+
+
 /* fin de code */
 
 
@@ -252,5 +277,37 @@ footer img{
 }
 
 @media (max-width: 767px) {
+ 
+
+
+.img-header{
+    width: 100px;
+}
+
+.police-h1{
+    font-size: 30px;
+}
+.pad-p{
+   text-align: center;
+    font-size: 10px;
+    width: max-content;
+}
+li a{
+    font-size: 10px;
+}
+
+.test{
+    flex-direction: column;
+    
+}
+
+.background-home{
+    padding: 10px;
+    height: 50vh;
+}
+
+
+
+
 
 }
