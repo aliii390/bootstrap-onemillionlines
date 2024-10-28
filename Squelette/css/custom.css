@@ -1,91 +1,86 @@
 /* Vos customisations des classes de Bootstrap */
- /* police h1*/
+/* police h1*/
 
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap");
 
-
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* partie header */
-.flex{
-    display: flex;
-
+.flex {
+  display: flex;
 }
 
 a {
-    text-decoration: none;
-  }
-  
-  ul {
-    list-style: none;
-  }
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
 
 header {
-    background-color: #222222 ;
-    display: flex;
-    justify-content: center;
-    padding: 1rem 0;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav > ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    font-size: 0.9rem;
-  }
-  
-  nav a {
-      color: rgb(197, 197, 197);
-  }
-  
-  nav a:hover {
-      color: #ffffff;
-  }
-  
-  .container {
-    width: 1200px;
-  }
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 0.9rem;
+}
+
+nav a {
+  color: rgb(197, 197, 197);
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+}
 
 /* fin de code */
 
-
 /* partie home */
 
- .background-home{
-    justify-content:  center;
-    padding: 50px;
-    text-align: center;
-    background-image: url("../images/hero-image.jpg");
-    height: 65vh;
-    color: white;
-    align-items: center;
-    
+.background-home {
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+  background-image: url("../images/hero-image.jpg");
+  height: 65vh;
+  color: white;
+  align-items: center;
 }
 
-.collumn{
-    display: flex;
-    flex-direction: column;
+.collumn {
+  display: flex;
+  flex-direction: column;
 }
 
-.a-home a{
+.a-home a {
   text-decoration: none;
-  background-color: #D9534F;
+  background-color: #d9534f;
   padding: 10px 17px;
   color: white;
   border-radius: 7%;
@@ -94,220 +89,252 @@ header {
   font-style: normal;
 }
 
-.a-home{
-    padding: 30px;
+.a-home {
+  padding: 30px;
 }
 
-
-.pad-p{
-    padding: 1%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-
-   
+.pad-p {
+  padding: 1%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
 }
 
-.police-h1{
-    font-family: "Arvo", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 56px;
-} 
-
-
-
+.police-h1 {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 56px;
+}
 
 /* fin de code */
 
-
 /* partie who */
 
-.who-back{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 50px;
+.who-back {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
 }
 
-.who-back p{
-    padding: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
+.who-back p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
 }
 
-hr{
-    border: none;
-  border-top: 2px solid #D9534F;
-  color:  #D9534F;
+.p-who {
+  width: 50%;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #d9534f;
+  color: #d9534f;
   overflow: visible;
   text-align: center;
   height: 5px;
   width: 200px;
 }
 
-.who-back h2{
-    padding: 20px;
-    font-family: "Arvo", serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #D9534F;
+.who-back h2 {
+  padding: 20px;
+  font-family: "Arvo", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #d9534f;
 }
 
 /* fin de code */
 
 /* partie get */
 
-
-.get-back{
-    background-color: #F5F5F5;
-    display: flex;
-   flex-direction: column;
-    align-items: center;
-}
-
-.get-back h2{
-    padding: 20px;
-    font-family: "Arvo", serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #D9534F;
-    
-}
-
-.get-back p{
-    padding: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    
-}
-
-.card{
-    display: flex;
-    text-align: center;
-    padding: 40px;
-    /* justify-content: center; */
-    flex-direction: column;
-    align-items: center;
-   
+.p-wid {
+  width: 100%;
 }
 
 
 
-.card h3{
-    color: #D9534F;
-    font-family: "Arvo", serif;
-    font-weight: 100;
-    padding: 5%;
+#get-involved {
+    > div.container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }
 
-.iconcard{
-    background-color:  #333333;
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.get-back {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.test{
-    display: flex;
+.get-back h2 {
+  font-family: "Arvo", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #d9534f;
 }
 
-.a-get a{
-    text-decoration: none;
-    padding: 10px 14px 10px 14px;
-    font-family: "Roboto", serif;
+.get-back p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+
+}
+
+.card {
+  display: flex;
+  width: 30%;
+  text-align: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card h3 {
+  color: #d9534f;
+  font-family: "Arvo", serif;
+  font-weight: 100;
+}
+
+.iconcard {
+  background-color: #333333;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a-get a {
+  text-decoration: none;
+  padding: 10px 14px 10px 14px;
+  font-family: "Roboto", serif;
   font-weight: 300;
   font-style: normal;
-  border: 1px solid #E3E3E3;
-  background-color: #FFFFFF;
-  color: #D9534F;
-  border-radius:5%;
+  border: 1px solid #e3e3e3;
+  background-color: #ffffff;
+  color: #d9534f;
+  border-radius: 5%;
 }
 
 /* fin de code */
 
-
 /* partie footer */
-footer{
-    background-color:#D9534F ;
-    height: 20vh;
+footer {
+  background-color: #d9534f;
+  height: 20vh;
 }
 
-footer img{
-    margin-top: 5%;
+footer img {
+  margin-top: 5%;
 }
 
-.img-footer{
-    margin-left: 10%;
-   
+.img-footer {
+  margin-left: 10%;
 }
 
 /* fin de code  */
 
-
 /* partie fleche */
 
-.fleche-top{
-    background-color:  #333333;
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 90vh;
-    left: 190vh;
+.fleche-top {
+  background-color: #333333;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 90vh;
+  left: 190vh;
 }
+
+
 
 /* fin de code */
 
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
-
 }
 
 @media (max-width: 991px) {
-
 }
 
 @media (max-width: 767px) {
- 
 
+    /* partie header */
 
-.img-header{
-    width: 100px;
-}
+  .img-header {
+    width: 100%;
+    margin-left: 50%;
+  }
 
-.police-h1{
+  .police-h1 {
     font-size: 30px;
-}
-.pad-p{
-   text-align: center;
+  }
+  .pad-p {
+    text-align: center;
     font-size: 10px;
     width: max-content;
-}
-li a{
-    font-size: 10px;
-}
+  }
 
-.test{
-    flex-direction: column;
-    
-}
-
-.background-home{
+  .background-home {
     padding: 10px;
-    height: 50vh;
-}
+    
+  }
 
 
+  li a {
+    font-size: 10px;
+  }
 
+  /* partie card get */
 
+  .test {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  
+  .p-wid {
+    width: 130%;
+  }
+
+  .card {
+    width: 100%; 
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+ 
+/* PARTIE WHO  */
+
+  .p-who {
+    width: 100%;
+  }
+
+  .container{
+    width: 600px;
+    margin: auto;
+  }
 }
