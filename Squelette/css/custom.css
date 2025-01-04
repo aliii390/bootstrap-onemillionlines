@@ -273,68 +273,151 @@ footer img {
 
 /* Responsive Styling */
 
+/* Responsive Styling */
+
+/* Écrans jusqu'à 1199px */
 @media (max-width: 1199px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .nav ul {
+    gap: 20px;
+  }
 }
 
+/* Écrans jusqu'à 991px */
 @media (max-width: 991px) {
-}
-
-@media (max-width: 767px) {
-
-    /* partie header */
-
-  .img-header {
-    width: 100%;
-    margin-left: 50%;
-  }
-
-  .police-h1 {
-    font-size: 30px;
-  }
-  .pad-p {
-    text-align: center;
-    font-size: 10px;
-    width: max-content;
+  nav > ul {
+    gap: 15px;
+    font-size: 0.8rem;
   }
 
   .background-home {
-    padding: 10px;
-    
-  }
-
-
-  li a {
-    font-size: 10px;
-  }
-
-  /* partie card get */
-
-  .test {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  
-  .p-wid {
-    width: 130%;
+    height: auto;
+    padding: 30px;
   }
 
   .card {
-    width: 100%; 
-    max-width: 300px;
-    margin-bottom: 30px;
+    width: 45%;
+    margin-bottom: 20px;
   }
 
- 
-/* PARTIE WHO  */
+  .test {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   .p-who {
-    width: 100%;
+    width: 80%;
   }
 
-  .container{
-    width: 600px;
-    margin: auto;
+  .who-back {
+    padding: 30px;
+  }
+}
+
+/* Écrans jusqu'à 767px */
+@media (max-width: 767px) {
+  /* Partie header */
+  nav > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 0.8rem;
+  }
+
+  .police-h1 {
+    font-size: 24px;
+  }
+
+  /* Partie home */
+  .background-home {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .a-home a {
+    font-size: 0.8rem;
+    padding: 8px 14px;
+  }
+
+  /* Partie who */
+  .p-who {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  /* Partie get */
+  .card {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px auto;
+  }
+
+  .test {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Partie footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    height: auto;
+  }
+
+  .img-footer {
+    margin: 0 auto;
+  }
+
+  /* Flèche */
+  .fleche-top {
+    width: 25px;
+    height: 25px;
+    top: 85vh;
+    left: 85vw;
+  }
+}
+
+/* Écrans jusqu'à 576px */
+@media (max-width: 576px) {
+  .background-home {
+    height: auto;
+    padding: 20px;
+    background-size: cover;
+  }
+
+  .police-h1 {
+    font-size: 20px;
+  }
+
+  nav > ul {
+    font-size: 0.7rem;
+  }
+
+  .img-header{
+    width: 50%;
+  }
+  
+  .p-who {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .a-home a {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .card {
+    gap: 15px;
   }
 }
