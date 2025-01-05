@@ -287,7 +287,7 @@ footer img {
 }
 
 /* Écrans jusqu'à 991px */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   nav > ul {
     gap: 15px;
     font-size: 0.8rem;
@@ -315,6 +315,8 @@ footer img {
   .who-back {
     padding: 30px;
   }
+
+ 
 }
 
 /* Écrans jusqu'à 767px */
@@ -381,15 +383,36 @@ footer img {
     top: 85vh;
     left: 85vw;
   }
+
+
+
+
 }
 
-/* Écrans jusqu'à 576px */
-@media (max-width: 576px) {
+
+
+
+/* @media (max-width: 775px){
+  .fa-bars{
+    visibility: hidden;
+  }
+} */
+
+
+
+
+
+@media (max-width: 768px) {
   .background-home {
     height: auto;
     padding: 20px;
     background-size: cover;
   }
+
+  li{
+    visibility: hidden;
+  }
+
 
   .police-h1 {
     font-size: 20px;
